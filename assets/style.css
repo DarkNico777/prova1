@@ -1,0 +1,77 @@
+.navbar .megamenu{ padding: 1rem; }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
+}
+
+header {
+    height: 800px;
+}
+
+.hero {
+    display: flex;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5c0f697e9d5abb8c65cd6857/1599032187414-92U41D7HVIIFVCHHBDA3/Artboard+2.png?format=1000w");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+a::after {
+    content: ">";
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+
+
+
+
+.fw img {
+    width: 70%;
+}
+
+.card {
+    border: none;
+    margin-bottom: 80px;
+    background-color: aqua;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+@media (min-width: 576px) and (max-width: 586px) {
+    .card {
+        margin-bottom: 50px;
+        background-color: red;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .card {
+        margin-bottom: 80px;
+        background-color: blueviolet;
+    }
+    
+}
+
